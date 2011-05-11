@@ -1,13 +1,13 @@
 %define srcname pycdio
 Name:		python-pycdio
-Version:	0.16
+Version:	0.17
 Release:	%mkrel 1
 Summary:	A Python interface to the CD Input and Control library
 Group:		Development/Python 
 License:	GPLv3+
 URL:		http://www.gnu.org/software/libcdio/
 Source0:	ftp://ftp.gnu.org/pub/gnu/libcdio/%{srcname}-%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
+
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 BuildRequires:	libcdio-devel
@@ -25,7 +25,6 @@ device-dependent properties of a CD-ROM can use this library.
 python setup.py build
 
 %install
-rm -rf %{buildroot}
 python setup.py install --skip-build --root %{buildroot}
 chmod 755 %{buildroot}/%{py_platsitedir}/*.so
 
