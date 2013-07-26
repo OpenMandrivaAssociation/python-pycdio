@@ -1,12 +1,12 @@
 %define srcname pycdio
 Name:		python-pycdio
-Version:	0.17
-Release:	%mkrel 2
+Version:	0.19
+Release:	1
 Summary:	A Python interface to the CD Input and Control library
 Group:		Development/Python 
 License:	GPLv3+
 URL:		http://www.gnu.org/software/libcdio/
-Source0:	ftp://ftp.gnu.org/pub/gnu/libcdio/%{srcname}-%{version}.tar.gz
+Source0:	ftp://ftp.gnu.org:21/pub/gnu/libcdio/pycdio-%{version}.tar.gz
 
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
@@ -57,4 +57,5 @@ rm -rf %{buildroot}
 + Revision: 449616
 - Create package based on Fedora package
 - create python-pycdio
+
 
