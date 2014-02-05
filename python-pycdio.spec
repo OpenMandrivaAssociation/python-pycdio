@@ -1,6 +1,6 @@
 %define srcname pycdio
 Name:		python-pycdio
-Version:	0.19
+Version:	0.20
 Release:	1
 Summary:	A Python interface to the CD Input and Control library
 Group:		Development/Python 
@@ -29,7 +29,6 @@ python setup.py install --skip-build --root %{buildroot}
 chmod 755 %{buildroot}/%{py_platsitedir}/*.so
 
 %clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
@@ -57,5 +56,6 @@ rm -rf %{buildroot}
 + Revision: 449616
 - Create package based on Fedora package
 - create python-pycdio
+
 
 

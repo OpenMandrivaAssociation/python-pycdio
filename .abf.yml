@@ -1,4 +1,5 @@
 removed_sources:
   pycdio-0.17.tar.gz: c3d56b51c401d542f140b6199a5939b1664942a0
-sources:
   pycdio-0.19.tar.gz: 5befd064f920d4d83bb2933231a5453aa186a6f1
+sources:
+  pycdio-0.20.tar.gz: 4a9d28fc0de8779f390c6cc6e553daeff3514bb2
