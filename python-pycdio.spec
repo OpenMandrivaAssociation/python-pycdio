@@ -1,7 +1,7 @@
 %define srcname pycdio
 Name:		python-pycdio
 Version:	0.20
-Release:	1
+Release:	2
 Summary:	A Python interface to the CD Input and Control library
 Group:		Development/Python 
 License:	GPLv3+
