@@ -5,7 +5,7 @@ Release:	2
 Summary:	A Python interface to the CD Input and Control library
 Group:		Development/Python 
 License:	GPLv3+
-URL:		http://www.gnu.org/software/libcdio/
+URL:		https://www.gnu.org/software/libcdio/
 Source0:	ftp://ftp.gnu.org:21/pub/gnu/libcdio/pycdio-%{version}.tar.gz
 
 BuildRequires:	python-devel
